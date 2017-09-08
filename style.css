@@ -1,6 +1,12 @@
 #background{
 background-color: red;
 color: white;
+}
+#copyright{
+position:absolute;
+top: 100px;
+
+
 
 
 }
