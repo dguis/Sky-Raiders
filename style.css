@@ -1,12 +1,68 @@
 #background{
-background-color: red;
-color: white;
+  background: #EFF710;
+  background: -webkit-linear-gradient(135deg, #EFF710, #F79D21, #F75921);
+  background: -o-linear-gradient(135deg, #EFF710, #F79D21, #F75921);
+  background: -moz-linear-gradient(135deg,#EFF710, #F79D21, #F75921);
+  background: linear-gradient(135deg, #EFF710, #F79D21, #F75921);
+  padding: 10px 0;
+  width: 100%;
 }
-#copyright{
-position:absolute;
-top: 100px;
+.copyright{
+padding-top: 10px;
+text-align: left;
+color: white;
+text-decoration: none;
+}
+.copyright p{
+padding-left: 10px;
 
-
-
-
+}
+#title{
+color: silver;
+font-style: oblique;
+text-shadow: 1px 1px black, 1px 1px 5px black;
+font-size: 50px;
+margin: 0;
+}
+#subtitle{
+color: silver;
+text-shadow: 1px 1px black, 1px 1px 5px black;
+font-size: 35px;
+margin: 0;
+}
+#author{
+color: black;
+margin: 0;
+}
+body{
+text-align: center;
+margin: 0;
+}
+nav{
+padding-top: 5px;
+}
+nav .buttons{
+padding: 1px;
+font-size: 35px;
+border: 3px solid gray;
+border-radius: 2px;
+color: silver;
+background-color: #52504E;
+text-decoration: none;
+cursor: pointer;
+}
+nav .buttons:hover{
+border-bottom: 3px solid lightgray;
+}
+nav .selected{
+padding: 1px;
+font-size: 35px;
+border: 3px solid gray;
+border-radius: 2px;
+color: silver;
+background-color: #3D3C3A;
+cursor: pointer;
+}
+#textbox{
+padding-top: 10px;
 }
