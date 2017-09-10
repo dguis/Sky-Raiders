@@ -39,7 +39,7 @@ text-align: center;
 margin: 0;
 }
 nav{
-padding-top: 5px;
+padding-top: 10px;
 }
 nav .buttons{
 padding: 1px;
@@ -65,4 +65,10 @@ cursor: pointer;
 }
 #textbox{
 padding-top: 10px;
+}
+#char, #sum{
+font-size: 30px;
+}
+img{
+padding-top: 10px;  
 }
