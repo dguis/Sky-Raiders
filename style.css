@@ -37,6 +37,7 @@ margin: 0;
 body{
 text-align: center;
 margin: 0;
+line-height: 1;
 }
 nav{
 padding-top: 10px;
@@ -66,9 +67,12 @@ cursor: pointer;
 #textbox{
 padding-top: 10px;
 }
-#char, #sum{
+.buttons span{
 font-size: 30px;
 }
 img{
-padding-top: 10px;  
+padding-top: 10px;
+}
+.sect{
+  font-size: 20px;
 }
