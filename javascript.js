@@ -5,9 +5,8 @@ var show = function (item) {
   var con = document.getElementById('con');
   var main = document.getElementById('main');
   var sum = document.getElementById('sum');
-  var charb = document.getElementById('charb').innerHTML;
-  var setb = document.getElementById('setb').innerHTML;
   if (item == 1){
+      var setb = document.getElementById('setb').innerHTML;
     text.innerHTML = setb;
     set.className = "selected";
     char.className = "buttons";
@@ -17,6 +16,7 @@ var show = function (item) {
   }
   else{
     if (item == 2){
+      var charb = document.getElementById('charb').innerHTML;
       text.innerHTML = charb;
       set.className = "buttons";
       char.className = "selected";
