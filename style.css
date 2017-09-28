@@ -15,7 +15,7 @@ text-decoration: none;
 }
 .copyright p{
 padding-left: 10px;
-
+padding-bottom: 500px;
 }
 #title{
 color: silver;
@@ -41,6 +41,10 @@ line-height: 1;
 }
 nav{
 padding-top: 10px;
+}
+nav.large a, nav.large span{
+  box-shadow: 3px 3px 5px black;
+  margin-left: 1px;
 }
 nav .buttons{
 padding: 1px;
@@ -75,4 +79,21 @@ padding-top: 10px;
 }
 .sect{
   font-size: 20px;
+}
+.report p{
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+p span{
+  cursor: pointer;
+  color: blue;
+  decoration: underline;
+}
+.mini .buttons{
+  font-size: 30px;
+}
+.mini .selected{
+  font-size: 32px;
+  box-shadow: 3px 3px 5px black;
 }
