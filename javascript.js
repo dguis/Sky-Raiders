@@ -35,7 +35,7 @@ var show = function (item) {
       }
       else {
         if (item == 4){
-          text.innerHTML = "<p>The story was about a few slave children that live in a magical land called the Outskirts who were forced to do dangerous jobs until they escaped to go overthrow the king. A few slaves, such as Dalton and Jenna, were sent to the king and from there sent to anonymous places around the land. Another group of slaves, including Cole, Mira, and a few others, were sold to a company called the Sky Raiders, from where this group escaped and went on the run from the king, potentially trying to destroy him.</p>";
+          text.innerHTML = "<p>The main idea of the story was that you can do great things no matter where you come from. For instance, Cole, was just a regular 6th grader but when he was brought into <span onClick='scrollWin();'>the Outskirts</span>, he saved many people many times. Also, as ordinary slave forced to work on many long and dangerous missions, Jace continued to be brave and continued to keep up his hard work and eventually escape his owners. Mira, although a princess, was treated badly by her father. Despite her unfair treatment, she kept up hope of someday escaping her father's wrath and made incredible progress towards her goal.</p>";
           set.className = "buttons";
           char.className = "buttons";
           con.className = "buttons";
